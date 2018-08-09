@@ -3,7 +3,7 @@ package org.mockito
 import org.scalatest
 import org.scalatest.WordSpec
 
-class MockitoSugarTest extends WordSpec with MockitoSugar with scalatest.Matchers with ArgumentMatchersSugar {
+class MockitoSugarTest extends WordSpec with MockitoSugar with scalatest.Matchers with ArgumentMatchersSugar with ByNameExperimental {
 
   class Foo {
     def bar = "not mocked"
